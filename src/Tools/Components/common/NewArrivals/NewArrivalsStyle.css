@@ -1,0 +1,11 @@
+
+.slider{
+    .swiper-wrapper{
+        .swiper-slide{
+            width: auto !important;
+        }
+    }
+}
+.swiper-pagination-bullets{
+    display: none;
+}

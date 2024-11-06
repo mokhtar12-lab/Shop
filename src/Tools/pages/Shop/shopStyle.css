@@ -1,0 +1,351 @@
+.shop{
+    .sections{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 10px;
+        .sorting-product{
+            border: solid 1px #000;
+            border-radius: 20px;
+            box-shadow: -4px 2px 20px 0px #aaa;
+            background-color: #eee;
+            height: fit-content;
+            h1{
+                margin: 10px 0;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            hr{
+                width: 80%;
+                margin: auto;
+            }
+            .sort{
+                margin: 50px 10px;
+                background-color: #cccccc60;
+                border-radius: 10px;
+                padding: 10px;
+                h2{
+                    text-align: center;
+                    font-weight: bold;
+                }
+                nav{
+                    ul{
+                        li{
+                            padding: 10px 0;
+                            font-size: 19px;
+                            color: #aaa;
+                            cursor: pointer;
+                        }
+                        a{
+                            padding: 10px 0;
+                            font-size: 19px;
+                            color: #aaa;
+                            cursor: pointer;
+                            display: block;
+                        }
+                        a.active,
+                        a:hover,
+                        li.active,
+                        li:hover{
+                            color: #000;
+                            border-bottom: solid 1px #000;
+                        }
+                    }
+                }
+            }
+        }
+        .products{
+            border-radius: 20px;
+            background-color: #eee;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+            box-shadow: -4px 2px 20px 0px #aaa;
+            padding-left: 30px;
+        }
+    }
+}
+
+@keyframes openSort{
+    from{
+        top: 0;
+        opacity: 0;
+    }
+    to{
+        top: 100%;
+        opacity: 1;
+    }
+}
+.sort-for-mobile{
+    display: none;
+    .sort{
+        position: relative;
+        .linksOne,
+        .linksTwo,
+        .linksThree{
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            border: solid 1px #000;
+            border-radius: 20px;
+            background-color: #aaa;
+            ul{
+                li{
+                    padding: 5px;
+                    border-bottom: solid 1px #eee;
+                }
+                li:hover{
+                    border-radius: 20px;
+                    background-color: #ccc;
+                    border-bottom: solid 1px #000;
+                }
+            }
+        }
+    }
+}
+
+.open{
+    display: block !important;
+    animation-name: openSort;
+    animation-duration: 1s;
+    transition: all .5s ease-in-out;
+}
+
+@media(max-width: 600px) {
+    @keyframes openSort{
+        from{
+            top: 0;
+            opacity: 0;
+        }
+        to{
+            top: 100%;
+            opacity: 1;
+        }
+    }
+    .sort-for-mobile{
+        display: block;
+        .sort{
+            position: relative;
+            h2{
+                font-size: 14px;
+                text-align: center;
+                border: solid 1px #000;
+                border-radius: 10px;
+                background-color: #000;
+                color: #fff;
+            }
+            .linksOne,
+            .linksTwo,
+            .linksThree{
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 9999;
+                width: 100%;
+                border: solid 1px #000;
+                border-radius: 20px;
+                background-color: #aaa;
+                ul{
+                    li{
+                        padding: 5px;
+                        border-bottom: solid 1px #eee;
+                    }
+                    li:hover{
+                        border-radius: 20px;
+                        background-color: #ccc;
+                        border-bottom: solid 1px #000;
+                    }
+                }
+            }
+        }
+    }
+    
+    .open{
+        display: block !important;
+        animation-name: openSort;
+        animation-duration: 1s;
+        transition: all .5s ease-in-out;
+    }
+    
+    .shop{
+        margin-top: 50px;
+        .sections{
+            display: block;
+            .sorting-product{
+                display: none;
+            }
+            .products{
+                border-radius: 20px;
+                background-color: #eee;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+                padding: 10px;
+                box-shadow: -4px 2px 20px 0px #aaa;
+            }
+        }
+    }
+}
+
+
+@media(min-width: 601px) and (max-width: 1024px) {
+    @keyframes openSort{
+        from{
+            top: 0;
+            opacity: 0;
+        }
+        to{
+            top: 100%;
+            opacity: 1;
+        }
+    }
+    .sort-for-mobile{
+        display: block;
+        .sort{
+            position: relative;
+            h2{
+                font-size: 12px;
+                text-align: center;
+                border: solid 1px #000;
+                border-radius: 10px;
+                background-color: #000;
+                padding: 10px ;
+                color: #fff;
+            }
+            .linksOne,
+            .linksTwo,
+            .linksThree{
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 9999;
+                width: 100%;
+                border: solid 1px #000;
+                border-radius: 20px;
+                background-color: #aaa;
+                ul{
+                    li{
+                        padding: 5px;
+                        border-bottom: solid 1px #eee;
+                    }
+                    li:hover{
+                        border-radius: 20px;
+                        background-color: #ccc;
+                        border-bottom: solid 1px #000;
+                    }
+                }
+            }
+        }
+    }
+    
+    .open{
+        display: block !important;
+        animation-name: openSort;
+        animation-duration: 1s;
+        transition: all .5s ease-in-out;
+    }
+    
+    .shop{
+        margin-top: 50px;
+        .sections{
+            display: block;
+            .sorting-product{
+                display: none;
+            }
+            .products{
+                border-radius: 20px;
+                background-color: #eee;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 10px;
+                padding: 10px;
+                box-shadow: -4px 2px 20px 0px #aaa;
+            }
+        }
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1280px) {
+    @keyframes openSort{
+        from{
+            top: 0;
+            opacity: 0;
+        }
+        to{
+            top: 100%;
+            opacity: 1;
+        }
+    }
+    .sort-for-mobile{
+        display: block;
+        .sort{
+            position: relative;
+            h2{
+                font-size: 12px;
+                text-align: center;
+                border: solid 1px #000;
+                border-radius: 10px;
+                background-color: #000;
+                padding: 10px ;
+                color: #fff;
+            }
+            .linksOne,
+            .linksTwo,
+            .linksThree{
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 9999;
+                width: 100%;
+                border: solid 1px #000;
+                border-radius: 20px;
+                background-color: #aaa;
+                ul{
+                    li{
+                        padding: 5px;
+                        border-bottom: solid 1px #eee;
+                    }
+                    li:hover{
+                        border-radius: 20px;
+                        background-color: #ccc;
+                        border-bottom: solid 1px #000;
+                    }
+                }
+            }
+        }
+    }
+    
+    .open{
+        display: block !important;
+        animation-name: openSort;
+        animation-duration: 1s;
+        transition: all .5s ease-in-out;
+    }
+    
+    .shop{
+        margin-top: 50px;
+        .sections{
+            display: block;
+            .sorting-product{
+                display: none;
+            }
+            .products{
+                border-radius: 20px;
+                background-color: #eee;
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 10px;
+                padding: 10px;
+                box-shadow: -4px 2px 20px 0px #aaa;
+            }
+        }
+    }
+}

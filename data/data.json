@@ -1,0 +1,659 @@
+{    
+    "Categories":[
+        {
+            "id": 1,
+            "categore": "men"
+        },
+        {
+            "id": 2,
+            "categore": "Women"
+        },
+        {
+            "id": 3,
+            "categore": "Shoes"
+        }
+    ],
+
+    "Products":[
+        {
+          "id": 1,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 10,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/852021.jpg",
+          "category": "men"
+        },
+        {
+          "id": 2,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 20,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/C09762.jpg",
+          "category": "men"
+        },
+        {
+          "id": 3,
+          "title": "Lenovo Laptop",
+          "price": 49999999,
+          "description": "Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/C86109.jpg",
+          "category": "men"
+        },
+        {
+          "id": 4,
+          "title": "HP laptop",
+          "price": 59999,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/530735.jpg",
+          "category": "men"
+        },
+        {
+          "id": 5,
+          "title": "HP Laptop",
+          "price": 59999,
+          "description": "HP Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N07931.jpg",
+          "category": "men"
+        },
+        {
+          "id": 6,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/803963.jpg",
+          "category": "men"
+        },
+        {
+          "id": 7,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/D76160.jpg",
+          "category": "men"
+        },
+        {
+          "id": 8,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T36962.jpg",
+          "category": "men"
+        },
+
+        {
+          "id": 9,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 10,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/716979.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 10,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 20,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/430289.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 11,
+          "title": "Lenovo Laptop",
+          "price": 49999999,
+          "description": "Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N15279.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 12,
+          "title": "HP laptop",
+          "price": 59999,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/448661.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 13,
+          "title": "HP Laptop",
+          "price": 59999,
+          "description": "HP Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/835100.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 14,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E05507.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 15,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q97392.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 16,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B56491.jpg",
+          "category": "Shoes"
+        },
+
+        {
+          "id": 17,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 10,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E16381.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 18,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 20,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/P41424.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 19,
+          "title": "Lenovo Laptop",
+          "price": 49999999,
+          "description": "Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/AA3631.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 20,
+          "title": "HP laptop",
+          "price": 59999,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E68010.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 21,
+          "title": "HP Laptop",
+          "price": 59999,
+          "description": "HP Laptop",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B25316.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 22,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/223672.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 23,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/984417.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 24,
+          "title": "New Product",
+          "price": 10,
+          "description": "A description",
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N47124.jpg",
+          "category": "Women"
+        },
+
+        {
+          "id": 25,
+          "title": "Oversize shirt",
+          "price": 400,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/556159.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 26,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 65,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/U77650.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 27,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 90,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B78720.jpg",
+          "category": "Women"
+        },      
+        {
+          "id": 28,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 50,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q87495.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 29,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 200,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B05680.jpg",
+          "category": "Women"
+        },      
+        {
+          "id": 30,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 150,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E12613.jpg",
+          "category": "Women"
+        },
+
+        {
+          "id": 31,
+          "title": "Oversize shirt",
+          "price": 400,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T44653.jpg",
+          "category": "men"
+        },
+        {
+          "id": 32,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 65,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/D62374.jpg",
+          "category":  "men"
+        },
+        {
+          "id": 33,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 90,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/609705.jpg",
+          "category":  "men"
+        },      
+        {
+          "id": 34,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 50,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N70606.jpg",
+          "category":  "men"
+        },
+        {
+          "id": 35,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 200,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T55227.jpg",
+          "category":  "men"
+        },      
+        {
+          "id": 36,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 150,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/K77873.jpg",
+          "category":  "men"
+        },
+
+        {
+          "id": 37,
+          "title": "Oversize shirt",
+          "price": 400,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N14859.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 38,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 65,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/M96525.jpg",
+          "category":  "Shoes"
+        },
+        {
+          "id": 39,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 90,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q57216.jpg",
+          "category":  "Shoes"
+        },      
+        {
+          "id": 40,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 50,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B67941.jpg",
+          "category":  "Shoes"
+        },
+        {
+          "id": 41,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 200,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N14858.jpg",
+          "category":  "Shoes"
+        },      
+        {
+          "id": 42,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 150,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/K78098.jpg",
+          "category":  "Shoes"
+        }
+
+    ],
+
+    "NewArrivals":[
+        {
+          "id": 25,
+          "title": "Oversize shirt",
+          "price": 400,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/556159.jpg"
+        },
+        {
+          "id": 26,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 65,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/U77650.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 27,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 90,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B78720.jpg",
+          "category": "Women"
+        },      
+        {
+          "id": 28,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 50,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q87495.jpg",
+          "category": "Women"
+        },
+        {
+          "id": 29,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 200,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B05680.jpg",
+          "category": "Women"
+        },      
+        {
+          "id": 30,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 150,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E12613.jpg",
+          "category": "Women"
+        }
+    ],
+
+    "BestSellers" : [
+            {
+              "id": 31,
+              "title": "Oversize shirt",
+              "price": 400,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T44653.jpg",
+              "category": "men"
+            },
+            {
+              "id": 32,
+              "title": "Oversize shirt for men, textured wool amplifies",
+              "price": 65,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/D62374.jpg",
+              "category":  "men"
+            },
+            {
+              "id": 33,
+              "title": "Oversize shirt for men, textured wool amplifies",
+              "price": 90,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/609705.jpg",
+              "category":  "men"
+            },      
+            {
+              "id": 34,
+              "title": "Oversize shirt for men, textured wool amplifies",
+              "price": 50,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N70606.jpg",
+              "category":  "men"
+            },
+            {
+              "id": 35,
+              "title": "Oversize shirt for men, textured wool amplifies",
+              "price": 200,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T55227.jpg",
+              "category":  "men"
+            },      
+            {
+              "id": 36,
+              "title": "Oversize shirt for men, textured wool amplifies",
+              "price": 150,
+              "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/K77873.jpg",
+              "category":  "men"
+            }
+    ],
+    
+    "SpecialOffers" : [
+        {
+          "id": 37,
+          "title": "Oversize shirt",
+          "price": 400,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N14859.jpg",
+          "category": "Shoes"
+        },
+        {
+          "id": 38,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 65,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/M96525.jpg",
+          "category":  "Shoes"
+        },
+        {
+          "id": 39,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 90,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q57216.jpg",
+          "category":  "Shoes"
+        },      
+        {
+          "id": 40,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 50,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B67941.jpg",
+          "category":  "Shoes"
+        },
+        {
+          "id": 41,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 200,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N14858.jpg",
+          "category":  "Shoes"
+        },      
+        {
+          "id": 42,
+          "title": "Oversize shirt for men, textured wool amplifies",
+          "price": 150,
+          "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/K78098.jpg",
+          "category":  "Shoes"
+        }
+    ],
+    "men": [
+      {
+        "id": 1,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 10,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/852021.jpg",
+        "category": "men"
+      },
+      {
+        "id": 2,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 20,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/C09762.jpg",
+        "category": "men"
+      },
+      {
+        "id": 3,
+        "title": "Lenovo Laptop",
+        "price": 49999999,
+        "description": "Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/C86109.jpg",
+        "category": "men"
+      },
+      {
+        "id": 4,
+        "title": "HP laptop",
+        "price": 59999,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/530735.jpg",
+        "category": "men"
+      },
+      {
+        "id": 5,
+        "title": "HP Laptop",
+        "price": 59999,
+        "description": "HP Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N07931.jpg",
+        "category": "men"
+      },
+      {
+        "id": 6,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/803963.jpg",
+        "category": "men"
+      },
+      {
+        "id": 7,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/D76160.jpg",
+        "category": "men"
+      },
+      {
+        "id": 8,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/T36962.jpg",
+        "category": "men"
+      }
+    ],
+
+    "Women": [
+      {
+        "id": 17,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 10,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E16381.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 18,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 20,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/P41424.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 19,
+        "title": "Lenovo Laptop",
+        "price": 49999999,
+        "description": "Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/AA3631.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 20,
+        "title": "HP laptop",
+        "price": 59999,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E68010.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 21,
+        "title": "HP Laptop",
+        "price": 59999,
+        "description": "HP Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B25316.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 22,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/223672.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 23,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/984417.jpg",
+        "category": "Women"
+      },
+      {
+        "id": 24,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N47124.jpg",
+        "category": "Women"
+      }
+    ],
+
+    "Shoes": [
+      {
+        "id": 9,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 10,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/716979.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 10,
+        "title": "Oversize shirt for men, textured wool amplifies",
+        "price": 20,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/430289.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 11,
+        "title": "Lenovo Laptop",
+        "price": 49999999,
+        "description": "Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/N15279.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 12,
+        "title": "HP laptop",
+        "price": 59999,
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/448661.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 13,
+        "title": "HP Laptop",
+        "price": 59999,
+        "description": "HP Laptop",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/835100.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 14,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/E05507.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 15,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/Q97392.jpg",
+        "category": "Shoes"
+      },
+      {
+        "id": 16,
+        "title": "New Product",
+        "price": 10,
+        "description": "A description",
+        "images": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/B56491.jpg",
+        "category": "Shoes"
+      }
+    ]
+}

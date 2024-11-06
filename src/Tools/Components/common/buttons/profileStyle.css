@@ -1,0 +1,97 @@
+@keyframes ScallBTN {
+    from {
+        transform: scale(0);
+    }
+    to
+    {
+        transform: scale(1);
+    }
+}
+
+
+.button-profile{
+    position: fixed;
+    top: 33%;
+    right: 10px;
+    z-index: 999;
+    width: 60px;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 0 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #4C4C4C;
+    box-shadow: -6px 4px 20px;
+    .BTN{
+        padding: 0 !important;
+        svg{
+            margin: auto;
+        }
+    }
+
+}
+
+.button-cart{
+    position: fixed;
+    top: 45%;
+    right: 10px;
+    z-index: 999;
+    width: 60px;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 0 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #4C4C4C;
+    box-shadow: -6px 4px 20px;
+    .BTN {
+        svg{
+            margin: auto;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+}
+
+.button-profile:hover > .BTN,
+.button-cart:hover > .BTN{
+    animation-name: ScallBTN;
+    animation-duration: 1s;
+    transition: all .5s linear;
+}
+
+@media(max-width:1000px) {
+    .button-cart,
+    .button-profile{
+        display: none;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .button-cart,
+    .button-profile{
+        padding: 0 !important;
+        .BTN{
+            padding: 0 !important;
+            width: 100%;
+            svg{
+                margin: auto;
+            }
+            p{
+                text-align: center !important;
+                padding: 0 0 0 6px;
+                font-size: 15px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-height: 569px) {
+    .button-cart,
+    .button-profile{
+        display: none;
+    }
+}

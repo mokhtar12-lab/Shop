@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    div{
+        padding: 0 10px !important;
+        p{
+            width: 100% !important;
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    div{
+        padding: 0 10px !important;
+        p{
+            width: 80% !important;
+        }
+    }
+}

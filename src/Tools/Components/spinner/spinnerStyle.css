@@ -1,0 +1,26 @@
+
+
+@media (min-width: 600px) and (max-width: 991px) {
+    .spinner {
+        margin-left: 260px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .spinner {
+        margin-left: 500px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .spinner {
+        margin-left: 500px;
+    }
+}
+
+
+@media (min-width: 1281px)  {
+    .spinner {
+        margin-left: 0;
+    }
+}

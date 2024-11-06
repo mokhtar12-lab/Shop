@@ -1,0 +1,84 @@
+.login{
+    .form{
+        width: 500px;
+        height: fit-content !important;
+        border: solid 3px hsla(189, 86%, 64%, 1);
+        border-radius: 20px;
+        background-color: #C4C4C4;
+        .title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 50px;
+            padding: 10px 0;
+        }
+        form{
+            margin: 0 auto;
+            input{
+                width: 80%;
+                padding: 5px;
+                text-align: center;
+                border: none;
+                outline: none;
+                display: block;
+                border-bottom: solid 1px #000;
+                margin: 50px 30px;
+                background-color: transparent;
+            }
+            .message{
+                text-align: center;
+            }
+            button{
+                width: 50%;
+                margin: 20px 0 20px 120px;
+                padding: 10px 20px;
+                background-color:transparent;
+                border: solid 1px #000;
+                border-radius: 30px 50px;
+                cursor: pointer;
+            }
+            input:focus{
+                border-bottom: solid 2px #000;
+            }
+            button:hover{
+                background-color: #00000080;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .login{
+        .form{
+            color: white;
+            --borderWidth: 3px;
+            position: relative;
+            border-radius: var(--borderWidth);
+            width: 100%;
+            form{
+                button{
+                    width: 50%;
+                    margin: 20px 0 20px 80px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .login{
+        .form{
+            color: white;
+            --borderWidth: 3px;
+            position: relative;
+            border-radius: var(--borderWidth);
+            width: 100%;
+            form{
+                button{
+                    width: 50%;
+                    margin: 20px 0 20px 80px;
+                }
+            }
+        }
+    }
+}
